@@ -1,7 +1,3 @@
-Here’s a shorter README updated to include `requirements.txt` and your script name.
-
-# README (Short)
-
 ## What this script does
 
 * Records 5 seconds of mono audio at 16 kHz.
@@ -41,12 +37,3 @@ python fourier_transform.py
   * Even N: mirror `1 .. N/2-1`
   * Odd N: mirror `1 .. (N-1)/2`
 * Inverse FFT → time domain → write WAV.
-
-## Customize
-
-* Edit `duration`, `samplerate`, and `filename` at the top.
-
-## Tips
-
-* No windowing used; add a Hann window if analyzing spectra.
-* Convert to `int16` only at the end to avoid clipping.
